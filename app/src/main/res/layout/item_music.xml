@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <ImageView
+      android:id="@+id/artworkUrl"
+      android:layout_width="64dp"
+      android:layout_height="64dp" />
+
+  <TextView
+      android:id="@+id/artistName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_toEndOf="@+id/artworkUrl"
+      tools:text="artistName" />
+
+  <TextView
+      android:id="@+id/collectionName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/artistName"
+      android:layout_marginEnd="8dp"
+      android:layout_marginStart="16dp"
+      android:layout_toEndOf="@+id/artworkUrl"
+      android:ellipsize="end"
+      android:maxLines="2"
+      tools:text="collectionName" />
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_below="@+id/artworkUrl"
+      android:background="#333" />
+
+</RelativeLayout>

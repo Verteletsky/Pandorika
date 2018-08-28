@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Pandorika</string>
+  <string name="hint_search">Search Music</string>
+  <string name="empty_string_search">А что ищем то?</string>
+  <string name="we_not_found">Мы ничего не нашли! Попробуйте заново</string>
+  <string name="internet_connection_error">Нет соединение с интернетом</string>
+  <string name="empty_list">Используйте кнопку поиска</string>
+  <string name="open_first_app">Нажмите на иконку поиска</string>
+</resources>
